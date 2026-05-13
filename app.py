@@ -4,7 +4,7 @@ from flask_cors import CORS
 from resume_parser import extract_text, extract_skills, calculate_ats_score
 from model import predict_role
 
-app = Flask(__name__)
+app = Flask(__name__, template_folder='.')
 CORS(app)
 
 ALLOWED_EXTENSIONS = {'pdf'}
