@@ -225,7 +225,7 @@
         // Agar localhost hai toh local backend, warna Render wala
         const API_BASE = window.location.hostname === "127.0.0.1" || window.location.hostname === "localhost" 
             ? "http://127.0.0.1:5000" 
-            : "https://your-backend-name.onrender.com"; // YAHAN APNA RENDER URL DALNA
+            : "https://ai-cv-analytics.onrender.com"; // YAHAN APNA RENDER URL DALNA
 
         try {
             const response = await fetch(`${API_BASE}/upload`, {
