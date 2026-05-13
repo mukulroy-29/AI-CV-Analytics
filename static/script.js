@@ -2,8 +2,8 @@
 // 1. GLOBAL CONFIGURATION & GSAP SETUP
 // ==========================================
 
-// Change this to your actual Render backend URL after deployment
-const RENDER_BACKEND_URL = "https://your-backend-name.onrender.com";
+
+const RENDER_BACKEND_URL = "https://ai-cv-analytics.onrender.com";
 
 const API_BASE = window.location.hostname === "127.0.0.1" || window.location.hostname === "localhost" 
     ? "http://127.0.0.1:5000" 
